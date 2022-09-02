@@ -67,11 +67,11 @@ function initGame(e) {
 
   setTimeout(() => {
     if (correct.length === word.length) {
-      alert(`congracs! you found word ${word.toUpperCase()}`);
+      alert(`نه بابا باهوش شدیا ${word.toUpperCase()}`);
       randWord();
     } else if (maxGuesses < 1) {
       typingInput.removeEventListener("input", initGame);
-      alert("Game over!");
+      alert("ریدی داش برو خونتون!");
       for (let i = 0; i < word.length; i++) {
         inputsDiv.querySelectorAll("input")[i].value = word[i];
       }
