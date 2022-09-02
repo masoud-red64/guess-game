@@ -15,4 +15,16 @@ let wordList = [
         word:'masoud',
         hint:'a person who is a programming'
     },
+    {
+        word:'آسمان',
+        hint:'بالا سر انسان ها'
+    },
+    {
+        word:'سوزن',
+        hint:'ی پا و یه چشم'
+    },
+    {
+        word:'عشق',
+        hint:'مسعود'
+    },
 ]

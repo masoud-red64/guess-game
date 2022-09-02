@@ -33,8 +33,9 @@ randWord()
 
 function initGame(e){
     let key = e.target.value
+    var p=/[پچجحخهعغفقثصضشسیبلاتنمکگوئدذرزطظژؤإأءًٌٍَُِّ\s]+$/;
     // console.log(key);
-    if(key.match(/^[A-Za-z]+$/) && !incorrects.includes(` ${key}`) && !correct.includes(key)){
+    if(key.match(/^[A-Za-z]+$/) || key.match(p)  && !incorrects.includes(` ${key}`) && !correct.includes(key)){
         console.log(key);
         if(word.includes(key)){
             // console.log('letter found');
