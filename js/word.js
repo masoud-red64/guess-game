@@ -16,7 +16,7 @@ let wordList = [
         hint:'a person who is a programming'
     },
     {
-        word:'آسمان',
+        word:'اسمان',
         hint:'بالا سر انسان ها'
     },
     {
