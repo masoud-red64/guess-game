@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1bb295;
+}
+.wrapper
+{
+    width: 430px;
+    background-color: #fff;
+    border-radius:10px;
+}
+.wrapper h1
+{
+    font-size: 25px;
+    font-weight: 500;
+    padding:20px 25px;
+    border-bottom: 1px solid #ccc;
+}
+.contains
+{
+    margin: 25px 25px 35px;
+
+}
+.contains .inputs
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.contains .inputs input
+{
+    width: 56px;
+    height: 57px;
+    margin: 4px;
+    background: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1bb295;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contains .inputs input:first-child
+{
+    margin-left: 0;
+}
+.contains .detail
+{
+    margin: 20px 0 25px;
+
+}
+.contains .detail p
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contains .reset-btn
+{
+    border:none;
+    outline: none;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: #1bb295;
+    color: #fff;
+    cursor: pointer;
+}
