@@ -13,18 +13,10 @@ let wordList = [
     },
     {
         word:'masoud',
-        hint:'a person who is a programming'
+        hint:'a person who is a programmer and web developer'
     },
     {
-        word:'اسمان',
-        hint:'بالا سر انسان ها'
-    },
-    {
-        word:'سوزن',
-        hint:'ی پا و یه چشم'
-    },
-    {
-        word:'عشق',
-        hint:'مسعود'
+        word:'sky',
+        hint:'top head of people'
     },
 ]

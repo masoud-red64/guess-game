@@ -67,11 +67,17 @@ function initGame(e) {
 
   setTimeout(() => {
     if (correct.length === word.length) {
-      alert(`congracs! you found word ${word.toUpperCase()}`);
+      swal({
+        title: `congracs! you found word "${word.toUpperCase()}"`,
+        button: "َAlright!",
+      });
       randWord();
     } else if (maxGuesses < 1) {
       typingInput.removeEventListener("input", initGame);
-      alert("Game over!");
+      swal({
+        title: `Game over!`,
+        button: "َWTF!",
+      });
       for (let i = 0; i < word.length; i++) {
         inputsDiv.querySelectorAll("input")[i].value = word[i];
       }
