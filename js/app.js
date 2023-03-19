@@ -29,6 +29,8 @@ function randWord() {
   correct = [];
   incorrects = [];
   wrongLetters.innerHTML = incorrects;
+
+  typingInput.addEventListener("input", initGame);
 }
 randWord();
 
